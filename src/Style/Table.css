@@ -1,0 +1,196 @@
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* RESPONSIVE TABLE STARTS HERE */
+table {
+  margin: 0 auto 2rem;
+}
+
+.responsiveTbl {
+  width: 100%;
+  margin-top: 14px;
+  max-width: 1000px;
+  text-align: center;
+}
+
+caption {
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+tr:nth-of-type(even) {
+  background: #d1d5d9;
+}
+
+.tableHead th {
+  background-color: #708090;
+  color: white;
+  font-weight: bold;
+  padding: 0.5em 0.375em;
+  text-align: center;
+  border: 1px solid #aaa;
+}
+
+.responsiveTbl {
+  border-collapse: collapse;
+}
+
+.responsiveTbl td {
+  padding: 0.25em;
+  border: 1px solid #aaa;
+  text-align: center;
+  white-space: nowrap;
+}
+@media only screen and (max-width: 760px) {
+  .responsiveTbl,
+  .responsiveTbl table,
+  .responsiveTbl tbody,
+  .responsiveTbl tr,
+  .responsiveTbl th,
+  .responsiveTbl td,
+  .tableHead {
+    display: block;
+  }
+
+  .tableHead tr {
+    display: none;
+  }
+
+  /* hide table heaaders (wasn't working, the above does the same thing) 
+    // thead tr th {
+    //   position: absolute;
+    //   top: -9999px;
+    //   left: -9999px;
+    // } */
+
+  .responsiveTbl {
+    width: 80%;
+  }
+  .responsiveTbl tr {
+    width: 70%;
+    margin: 0 auto;
+    border-top: 2px solid #555;
+    border-right: 2px solid #555;
+    border-left: 2px solid #555;
+  }
+
+  td {
+    border: none;
+    position: relative;
+    padding-left: 12.5rem;
+    /* // border-bottom: 1px solid #eee; */
+    margin-left: 10rem;
+  }
+
+  td:before {
+    position: absolute;
+    top: 0.25rem;
+    left: 1rem;
+    /* Change the width to fit your largest label */
+    width: 8rem;
+    white-space: nowrap;
+    margin-left: -9rem;
+  }
+
+  .responsiveTbl td:nth-of-type(1):before {
+    content: "Chord";
+    font-weight: bold;
+  }
+
+  .responsiveTbl td:nth-of-type(2):before {
+    content: "1st Note";
+    font-weight: bold;
+  }
+
+  .responsiveTbl td:nth-of-type(3):before {
+    content: "2nd Note";
+    font-weight: bold;
+  }
+
+  .responsiveTbl td:nth-of-type(4):before {
+    content: "3rd Note";
+    font-weight: bold;
+  }
+
+  .responsiveTbl td:nth-of-type(5):before {
+    content: "4th Note";
+    font-weight: bold;
+  }
+
+  .responsiveTbl td:nth-of-type(6):before {
+    content: "5th Note";
+    font-weight: bold;
+  }
+
+  .responsiveTbl td:nth-of-type(7):before {
+    content: "6th Note";
+    font-weight: bold;
+  }
+
+  .responsiveTbl td:nth-of-type(8):before {
+    content: "Equal Chord1";
+    font-weight: bold;
+  }
+
+  .responsiveTbl td:nth-of-type(9):before {
+    content: "Equal Chord2";
+    font-weight: bold;
+  }
+
+  .responsiveTbl td:nth-of-type(10):before {
+    content: "Equal Chord3";
+    font-weight: bold;
+  }
+}
+
+i{
+    cursor: pointer;
+}
+.pending{
+  color: rgb(240, 240, 25);
+}
+.completed{
+  color: green;
+}
+
+.strike{
+  text-decoration: line-through;
+}
+
+
+.length-container{
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 200;
+
+}
+
+.check{
+  color: blue;
+}
+.delete{
+  color: red;
+}
+
+.paginatiion{
+  /* border: 1px solid black; */
+  width: 20%;
+  margin: 0 auto 40px auto;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  list-style: none;
+}
+
+.paginatiion > li:hover{
+  color: blue;
+}

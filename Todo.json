@@ -1,0 +1,84 @@
+{
+  "TodoItem": [
+    {
+      "item": "blog",
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "item": "service scooty",
+      "status": "completed",
+      "id": 3
+    },
+    {
+      "item": "admission",
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "item": "Visit  Temple",
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "item": "GO gym",
+      "status": "pending",
+      "id": 7
+    }
+  ],
+  "TableData": [
+    {
+      "id": 1,
+      "name": "Mohit",
+      "gender": "Male",
+      "contact": "8800934463",
+      "email": "mohitjha@gmail.com",
+      "username": "mohitjha"
+    },
+    {
+      "name": "Mohit Jha",
+      "gender": "Male",
+      "contact": "880934463",
+      "email": "mohot@gmail.com",
+      "username": "sdbvbdk",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "dv bf",
+      "gender": "hjvsdhcbhdv",
+      "contact": "46464",
+      "email": "dbhsvdhj@gmail.com",
+      "username": "sdbchjsdb",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "ale",
+      "gender": "xcvnk",
+      "contact": "454444",
+      "email": "Mohitjha947@gmail.com",
+      "username": "vhbdj",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "dsvsd",
+      "gender": "dv",
+      "contact": "5454564",
+      "email": "dvbgdvb",
+      "username": "sdvch",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "dvjskd",
+      "gender": "xcbkje",
+      "contact": "26545645",
+      "email": "bhdcbhsbdchsd@gmail.com",
+      "username": "fvdf",
+      "password": "sdvvdf",
+      "id": 6
+    }
+  ]
+}

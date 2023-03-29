@@ -1,0 +1,104 @@
+.modal-container{
+  margin: 5rem;
+}
+
+.main-modal-wrapper{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(84, 80, 80, 0.9); 
+}
+form{
+    width: 38%;
+    min-height: 320px;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 2px 1px rgba(181, 181, 181, 0.2);
+    position: fixed;
+    left: 50%;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+  }
+
+form > h2{
+    text-align: center;
+}
+form > p > div{
+  background-color: transparent;
+}
+form > p > div > input{
+    width: 100%;
+    height: 32px;
+    border-radius: 8px;
+    padding: 14px;
+    background-color: #ccc;
+}
+
+p{
+  font-weight: 400;
+}
+
+.button{
+  text-align: center;
+}
+
+button{
+  width: 20%;
+  padding: 10px 0;
+  font-weight: 200;
+  cursor: pointer;
+  background-color: var(--acent--blue);
+  border: none;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--icon--white);
+  box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
+}
+
+
+div.strength-password{
+  width: 0%;
+  height: 6px;
+  background: transparent;
+  margin-top: 5px;
+}
+
+div.strength-password[data-score="null"]{
+  width: 0%;
+  background: red;
+}
+
+div.strength-password[data-score="0"]{
+  width: 5%;
+  background: red;
+}
+
+div.strength-password[data-score="1"]{
+  width: 25%;
+  background: yellow;
+}
+
+
+div.strength-password[data-score="2"]{
+  width: 50%;
+  background: skyblue;
+}
+
+
+div.strength-password[data-score="3"]{
+  width: 75%;
+  background: greenyellow;
+}
+
+div.strength-password[data-score="4"]{
+  width: 100%;
+  background: green;
+}

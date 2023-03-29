@@ -1,0 +1,44 @@
+
+.main-deal-container{
+    width: 99%;
+    min-height: 450px;
+}
+
+.button-right{
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    overflow: hidden;
+}
+table td, table th {
+    border-top: 1px solid #ecf0f1;
+    padding: 10px;
+}
+table td {
+    border-left: 1px solid #ecf0f1;
+    border-right: 1px solid #ecf0f1;
+}
+table th {
+    background-color: var(--icon--white);
+}
+table tr:nth-of-type(even) td {
+    background-color: var(--icon--white);
+}
+table .total th {
+    background-color: var(--icon--white);
+}
+table .total td {
+    text-align: right;
+    font-weight: 700;
+}
+
+.table-headers{
+    color: var(--table-font);
+}
+.mobile-header {
+    display: none;
+}

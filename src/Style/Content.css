@@ -1,0 +1,14 @@
+.content-box-wrapper{
+    width: 100%;
+    min-height: 120px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pages-here{
+    position: absolute;
+    top: 12%;
+    width: 79%;
+    left: 21%;
+}

@@ -1,0 +1,113 @@
+.sidebar-container{
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--icon--white);
+}
+
+.top-sidebar > h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--acent--blue);
+    font-style: normal;
+    padding: 0 0 0 26px;
+}
+
+.menu-list-bar{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid var( --border-line);
+    border-bottom: 1px solid var( --border-line);
+}
+
+.image-section{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    width: 30%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image > img{
+    border-radius: 40px;
+}
+
+.name-info{
+    width: 68%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-info > p{
+    padding: 0;
+    margin: 0;
+}
+
+p.naam{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--acent--black);
+}
+
+p.email{
+    font-size: 11px;
+    font-weight: 500;
+    color: var( --dark--gray);
+}
+
+.list-nav-menu > ul{
+    list-style: none;
+} 
+
+.list-nav-menu > ul > li{
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--dark--blue--text);
+    padding: 10px 0;
+}
+.list-nav-menu > ul > li:hover{
+    color:  var( --acent--blue);
+    cursor: pointer;
+}
+
+.list-nav-menu > ul > li > span:hover{
+    color:  var( --acent--blue);
+    cursor: pointer;
+}
+
+ul.setting-list{
+    list-style: none;
+}
+.setting-list > li{
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--dark--blue--text);
+    padding: 10px 0;
+}
+
+.setting-list > li > span{
+    margin-right: 10px;
+    vertical-align: text-top;
+} 
+
+.setting-list > li:hover{
+    color:  var( --acent--blue);
+    cursor: pointer;
+} 
+
+span.link-name {
+    padding: 0 0 0 8px;
+}
+
+span.link-name:hover{
+    color: var(--acent--blue);
+}
